@@ -1,0 +1,28 @@
+{
+  "name": "ecommercebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoQ-prog/EcommerceBackend.git"
+  },
+  "author": "Kewin Lizarraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardoQ-prog/EcommerceBackend/issues"
+  },
+  "homepage": "https://github.com/GerardoQ-prog/EcommerceBackend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
